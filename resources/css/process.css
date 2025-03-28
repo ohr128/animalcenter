@@ -1,0 +1,215 @@
+title
+{
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+}
+
+.intro
+{
+    display: flex;
+}
+
+
+.intro-left
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+
+.intro-menu
+{
+    color: #777777;
+    width: 220px;
+    margin-top: 20px;
+    
+    
+
+}
+
+
+.intro-menu :hover
+{
+    background-color: #0F8563;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.intro-menu-text
+{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.intro-menu-text1
+{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    background-color: #0F8563;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.intro-right
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 904px;
+
+}
+
+.intro-right > h1
+{
+    font-size: 30px;
+    padding-bottom: 32px;
+}
+
+
+.intro-box
+{
+    border: 2px dotted #dcdcdc;
+    border-radius: 8px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 800px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.mark-img
+{
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}
+
+
+
+
+
+/* 절차 */
+
+
+
+
+.step
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.step-box
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 80px;
+    /* padding: 0 20px; */
+    margin-bottom: 40px;
+}
+
+
+
+.card
+{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    /* margin-right: 20px; */
+}
+
+
+
+.card-top
+{   
+    width: 100%;
+    height: 80%;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    margin-bottom: 12px;
+    border-radius: 24px;
+}
+
+.card-img
+{
+    width: 70%;
+    height: 70%;
+}
+
+.card-state
+{
+    padding: 4px 12px;
+    background-color: #0F8563;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.card-bottom
+{
+    width: 260px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.img-box
+{
+    margin-bottom: 42px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+
+
+.red-text
+{
+    margin: 40px 0;
+    color: rgb(223, 7, 7);
+    overflow-wrap: break-word;
+}

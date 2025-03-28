@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유기동물 보호정보</title>
+
+    <!-- 공통 css 불러놓기 -->
+    <link rel="stylesheet" href="./resources/css/mystyle.css">
+
+    <!-- 공통 JS 불러놓기 -->
+    <script src="./resources/js/common.js"></script>
+
+    <!-- index.html 전용 CSS 불러놓기 -->
+    <link rel="stylesheet" href="./resources/css/protect.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <nav class="navigation">
+            <a href="./index.html">
+                <img class="logo" src="./resources/img/로고.png" alt="">
+            </a>
+
+            <div class="menu-box">
+                <div class="menu">
+                    <a class="menu-title" href="./introduce.html">동물보호센터</a>
+
+                    <div class="dropdown">
+                        <a class="dropdown-item" href="./introduce.html">동물보호센터 소개</a>
+                        <a class="dropdown-item" href="./process.html">유기동물 보호절차</a>
+                        <a class="dropdown-item" href="./road.html">오시는길</a>
+                    </div>
+                </div> 
+
+                <div class="menu">
+                    <a class="menu-title text-green" href="./state.html">동물보호 정보</a>
+
+                    <div class="dropdown">
+                        <a class="dropdown-item" href="./state.html">유기동물 현황</a>
+                        <a class="dropdown-item" href="./protect.html">유기동물 보호 정보</a>
+                        <a class="dropdown-item" href="./step.html">입양절차</a>
+                    </div>
+                </div> 
+
+                <div class="menu">
+                    <a class="menu-title" href="./guide.html">반려생활 길잡이</a>
+
+                    <div class="dropdown">
+                        <a class="dropdown-item" href="./guide.html">반려생활 길잡이</a>
+                        <a class="dropdown-item" href="./access.html">반려생활 출입 식당</a>
+                        <a class="dropdown-item" href="./question.html">자주묻는 질문</a>
+                    </div>
+                </div> 
+
+
+            </div>
+
+        </nav>
+
+        <section class="banner">
+            <img class="banner-img" src="./resources/img/배너.png" alt="">
+        </section>
+
+
+        <nav class="intro">
+
+            <div class="intro-left">
+                <span class="text-green text-bold text-title">동물보호센터</span>
+
+                <div class="intro-menu">
+                    <a class="intro-menu-text" href="./state.html">유기동물 현황</a>
+                    <a class="intro-menu-text1" href="./protect.html">유기동물 보호 정보</a>
+                    <a class="intro-menu-text" href="./step.html">입양절차</a>
+                    
+                </div>
+                
+            </div>
+
+
+
+            <div class="intro-right">
+                <h1>유기동물 보호정보</h1>
+                <hr style="border: 1px solid #eeeeee;">
+
+
+                <div class="protect-box">
+
+                    <div class="protect-box-top">
+                        <div class="box-top">
+                            <div class="all a-box2"><a>전체</a></div>
+                            <div class="adopt a-box"><a>입양가능</a></div>
+                            <div class="dog a-box"><a>개</a></div>
+                            <div class="cat a-box"><a>고양이</a></div>
+                            <div class="other a-box"><a>기타동물</a></div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="protect-box-middle">
+
+                        <div class="box-middle-top">
+                            <div class="select-option">
+                                <span>종류</span>
+                                <select name="" id="">
+                                    <option value="">선택하세요</option>
+                                    <option value="">개</option>
+                                    <option value="">고양이</option>
+                                    <option value="">기타동물</option>
+                                </select>
+                            </div>
+
+                            <div class="select-option">
+                                <span>상태</span>
+                                <select name="" id="">
+                                    <option value="">선택하세요</option>
+                                    <option value="">공고중</option>
+                                    <option value="">입양가능</option>
+                                    <option value="">입양예정</option>
+                                    <option value="">입양불가</option>
+                                    <option value="">임시보호</option>
+                                    <option value="">주민참여</option>
+                                    <option value="">입원중</option>
+                                </select>
+                            </div>
+
+                            <div class="select-option">
+                                <span>지역</span>
+                                <select name="" id="">
+                                    <option value="">선택하세요</option>
+                                    <option value="">동구</option>
+                                    <option value="">서구</option>
+                                    <option value="">중구</option>
+                                    <option value="">유성구</option>
+                                    <option value="">대덕구</option>
+                                </select>
+                            </div>
+
+                            <div class="select-option">
+                                <span>성별</span>
+                                <select name="" id="">
+                                    <option value="">선택하세요</option>
+                                    <option value="">암컷</option>
+                                    <option value="">수컷</option>
+                                    <option value="">중성화 암컷</option>
+                                    <option value="">중성화 수컷</option>
+                                    <option value="">미상</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
+                        <div class="box-middle-bottom">
+                            <select name="" id="">
+                                <option value="" style="text-align: center;">--- 전체 ---</option>    
+                                <option value="">품종</option>    
+                                <option value="">기타사항</option>    
+                                <option value="">관리번호</option>    
+                                <option value="">공고번호</option>    
+                                <option value="">성명(신고자, 입양반환, 임시보호자)</option>
+                                <option value="">동물등록번호</option>
+                                <option value="">담당자 성명</option>
+                                <option value="">보호실</option>
+                            </select>
+                            <input type="text" name="" id="">
+                            <button class="search-btn">검색</button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="protect-box-bottom">
+
+                        <div class="protect-card">
+                            <div class="card-box">
+                                <div class="card">
+                                    <div class="card-top">
+                                        
+                                    </div>
+                                    <div class="card-bottom">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </nav>
+
+    </div>
+
+
+</body>

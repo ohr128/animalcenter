@@ -1,0 +1,107 @@
+.protect-box-top
+{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.box-top
+{
+    display: flex;
+    /* padding: 12px; */
+    justify-content: space-around;
+    border: 1px solid #eeeeee;
+    width: 700px;
+}
+
+.a-box
+{
+    border: 1px solid #eeeeee;
+    width: 140px;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.a-box2
+{
+    border: 1px solid #0F8563;
+    color: white;
+    background-color: #0F8563;
+    width: 140px;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+
+
+
+/* middle */
+
+.protect-box-middle
+{
+    background-color: #eeeeee;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-middle-top
+{
+    display: flex;
+}
+
+.select-option > span
+{
+    margin: 0 12px;
+}
+
+.select-option > select
+{
+    margin-right: 12px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #c0bebe;
+}
+
+
+
+.box-middle-bottom
+{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.box-middle-bottom > select
+{
+    margin-right: 4px;
+    border: 1px solid #c0bebe;
+    font-size: 14px;
+
+}
+
+.box-middle-bottom > input
+{
+    margin-right: 4px;
+    border: 1px solid #c0bebe;
+    padding-left: 12px;
+    font-size: 14px;
+
+}
+
+.search-btn
+{
+    padding: 12px;
+    background-color: #3A3A3A;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* bottom */

@@ -1,0 +1,20 @@
+.intro-box
+{
+    border: 2px dotted #dcdcdc;
+    border-radius: 8px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 800px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.mark-img
+{
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}

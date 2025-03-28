@@ -33,12 +33,16 @@
 .menu
 {
     position: relative;
+    /* opacity: 1; */
+
 }
 
 .menu:hover > .dropdown
 {
     display: block; /* 애니메이션 안됨 */
-    /* opacity: ; */
+    /* transition: all 0.s ease; */
+    /* opacity: 0.7; */
+    
 }
 
 .menu-title
@@ -50,6 +54,12 @@
     font-size: 20px;
     font-weight: bold;
     display: block;
+}
+
+.menu-title:hover
+{
+    color: #0F8563;
+    /*  */
 }
 
 
@@ -79,6 +89,102 @@
     display: block;
 }
 
+.dropdown-item:hover
+{
+    color: #0F8563;
+    text-decoration: underline;
+}
+
+/*  드롭다운 고치기 색깔 고정하기 */
+
+
+title
+{
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+}
+
+.intro
+{
+    display: flex;
+}
+
+
+.intro-left
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+
+.intro-menu
+{
+    color: #777777;
+    width: 220px;
+    margin-top: 20px;
+    
+    
+
+}
+
+
+.intro-menu :hover
+{
+    background-color: #0F8563;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-menu-text
+{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.intro-menu-text1
+{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    background-color: #0F8563;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.intro-right
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 904px;
+
+}
+
+.intro-right > h1
+{
+    font-size: 30px;
+    padding-bottom: 32px;
+}
+
+
+
+
+
 .text-bold
 {
     font-weight: bold;
@@ -98,3 +204,63 @@
 {
     color: #777777;
 }
+
+.text-gray
+{
+    color: #cac6c6d7;
+}
+
+
+.text-green
+{
+    color: #0F8563;
+}
+
+.text-yellow
+{
+    color: rgb(255, 208, 0);
+}
+
+/* .padding
+{
+    padding: 24px 0;
+}
+
+.magin
+{
+    margin: 0 24px;
+} */
+
+
+
+
+.banner-img
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 160px;
+    background-color: #3B414D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer-sub
+{
+    margin-bottom: 24px;
+    cursor: pointer;
+
+}
+

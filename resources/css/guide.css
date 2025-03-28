@@ -1,0 +1,168 @@
+.guide-intro
+{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 24px 0;
+}
+
+.intro-top
+{   
+    display: flex;
+}
+
+
+.intro-num
+{
+    background-color: #5F90D7;
+    color: white;
+    padding: 12px;
+}
+
+.intro-title
+{
+    background-color: #EDF7FE;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    flex-grow: 1;
+    
+}
+
+.intro-bottom-box
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eeeeee;
+    border-top: none;
+    padding: 20px 24px;
+    /* justify-content: center; */
+}
+
+.intro-bottom-text
+{
+    padding: 8px;
+}
+
+.intro-bottom-h4
+{
+    font-size: 18px; 
+    color: #5689d6;
+    margin-bottom: 8px;
+}
+
+.intro-bottom-p
+{
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: rgb(77, 76, 76);
+}
+
+
+.orange-text
+{
+    color: #EE8B6C;
+    padding-bottom: 8px;
+    margin-top: 18px;
+}
+
+
+
+/* table */
+
+
+.intro-table
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.table-box
+{
+    width: 100%;
+    border-top: 2px solid black;
+    border-collapse: collapse;
+    display: flex;
+    font-size: 15px;
+
+}
+
+
+.table-box th
+{
+    background-color: #f0eeee;
+    border: 1px solid #dcdcdc;
+    padding: 8px 16px;
+    text-align: center;
+    border-left: none;
+    
+}
+
+
+.table-box td
+{
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    padding: 8px;
+}
+
+
+.table-box td > p
+{
+    display: flex;
+    justify-content: start;
+    padding-left: 12px;
+    padding-right: 64px;
+    margin-bottom: 4px;
+    
+}
+
+
+.table-box2
+{
+    width: 100%;
+    border-top: 2px solid black;
+    border-collapse: collapse;
+    display: flex;
+    font-size: 15px;
+
+}
+
+
+.table-box2 th
+{
+    background-color: #f0eeee;
+    border: 1px solid #dcdcdc;
+    padding: 8px 16px;
+    text-align: center;
+    border-left: none;
+    width: 160px;
+    
+}
+
+
+.table-box2 td
+{
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    padding: 8px;
+    width: 360px;
+}
+
+
+.table-box2 td > p
+{
+    display: flex;
+    justify-content: start;
+    padding-left: 6px;
+    padding-right: 4px;
+    margin-bottom: 4px;
+    
+}

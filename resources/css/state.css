@@ -1,0 +1,43 @@
+
+.down-btn
+{
+    display: flex;
+    justify-content: end;
+    margin: 24px;
+    margin-right: 0;
+
+}
+
+
+.btn
+{
+    border: 3px solid #cccbcb;
+    color: #797979;
+    padding: 8px;
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.down-img
+{
+    padding: 0 8px;
+}
+
+.chart
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#barChart
+{
+    margin-right: 16px;
+}
+
+.chart-top
+{
+    display: flex;
+    margin-bottom: 28px;
+}

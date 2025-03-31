@@ -12,6 +12,7 @@
 
 .navigation
 {
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,21 +34,15 @@
 .menu
 {
     position: relative;
-    /* opacity: 1; */
-
 }
 
 .menu:hover > .dropdown
 {
-    display: block; /* 애니메이션 안됨 */
-    /* transition: all 0.s ease; */
-    /* opacity: 0.7; */
-    
+    display: block;    
 }
 
 .menu-title
 {
-    /* top & bottom: 28px, left & right: 32px */
     padding: 29px 32px;
     color: black;
     text-decoration: none;
@@ -59,7 +54,6 @@
 .menu-title:hover
 {
     color: #0F8563;
-    /*  */
 }
 
 
@@ -95,7 +89,12 @@
     text-decoration: underline;
 }
 
-/*  드롭다운 고치기 색깔 고정하기 */
+
+.menu:hover .menu-title,
+.dropdown:hover ~ .menu-title,
+.dropdown-item:hover ~ .menu-title {
+    color: #0F8563;
+}
 
 
 title
@@ -172,7 +171,6 @@ title
     flex-direction: column;
     padding-left: 40px;
     width: 904px;
-
 }
 
 .intro-right > h1
@@ -220,17 +218,6 @@ title
 {
     color: rgb(255, 208, 0);
 }
-
-/* .padding
-{
-    padding: 24px 0;
-}
-
-.magin
-{
-    margin: 0 24px;
-} */
-
 
 
 

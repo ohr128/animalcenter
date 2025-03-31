@@ -3,7 +3,6 @@
     width: 900px;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
     border-radius: 12px;
     overflow: hidden;
     margin: 24px 0;

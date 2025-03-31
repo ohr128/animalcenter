@@ -14,6 +14,48 @@
     width: 700px;
 }
 
+.box-top > div:hover, .box-top > div:active, .box-top > div:visited
+
+{
+    background-color: #0F8563;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* .a-box:active, .a-box:visited, .a-box:hover
+{
+    border: 1px solid #0F8563;
+    color: white;
+    background-color: #0F8563;
+    cursor: pointer;
+} */
+
+/* .dog:hover
+{
+    border: 1px solid #0F8563;
+    color: white;
+    background-color: #0F8563;
+}
+
+.cat:hover
+{
+    border: 1px solid #0F8563;
+    color: white;
+    background-color: #0F8563;
+}
+
+.other:hover
+{
+    border: 1px solid #0F8563;
+    color: white;
+    background-color: #0F8563;
+} */
+
+
+
+
+
 .a-box
 {
     border: 1px solid #eeeeee;
@@ -22,7 +64,7 @@
     text-align: center;
 }
 
-.a-box2
+/* .a-box2
 {
     border: 1px solid #0F8563;
     color: white;
@@ -30,7 +72,7 @@
     width: 140px;
     padding: 12px 20px;
     text-align: center;
-}
+} */
 
 
 
@@ -105,3 +147,4 @@
 
 
 /* bottom */
+

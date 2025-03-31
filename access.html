@@ -17,11 +17,16 @@
 </head>
 
 
-
 <body>
+
+    <script type="text/javascript" 
+    src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f916e96e752d94711b8b572ecb7945fe&libraries=clusterer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.core.min.js"
+        integrity="sha512-UhlYw//T419BPq/emC5xSZzkjjreRfN3426517rfsg/XIEC02ggQBb680V0VvP+zaDZ78zqse3rqnnI5EJ6rxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     
-
-
     <div class="container">
 
         <nav class="navigation">
@@ -79,7 +84,6 @@
                     <a class="intro-menu-text" href="./guide.html">반려생활 길잡이</a>
                     <a class="intro-menu-text1" href="./access.html">반려동물 출입식당</a>
                     <a class="intro-menu-text" href="./question.html">자주묻는 질문</a>
-                    
                 </div>
                 
             </div>
@@ -96,14 +100,30 @@
                 </div>
 
 
-                <div class="map-access">
+                <div id="map" style="width:900px; height:600px; margin: 24px 0;"></div>
 
-                </div>
 
             </div>
         </nav>
+
+
+        <footer class="footer">
+            <div class="footer-sub">
+                <span class="text-yellow">개인정보처리 방침</span>
+                <span class="text-gray">   |  영상정보처리기기 운영·관리방침   |   누리집 개선의견   |   오시는 길</span>
+            </div>
+            <span>(34001) 대전광역시 유성구 금고길 7(금고동) 대전반려동물공원</span>
+            <span>(34001) 대전광역시 유성구 금남구즉로 1234(금고동) 대전동물보호센터 / 대표전화 (042) 270-7239 / 팩스번호 (042) 270-7224</span>
+            <span class="text-gray">COPYRIGHT 2023 (c) DAEJEON METROPOLITAN CITY. ALL RIGHTS RESERVED.</span>
+            
+        </footer>
+
+        
     </div>
 
+
+    <!-- access js 불러오기 -->
+    <script src="./resources/js/access.js"></script>
 
 
 </body>
